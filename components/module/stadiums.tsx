@@ -10,37 +10,37 @@ import stadiums03 from '../../public/img/stadiums03.png'
 export default class stadiums extends Component {
   render() {
     const settings = {
-        dots: false,
-        arrows:true,
-        infinite: true,
-        speed: 1400,
-        autoplaySpeed: 3000,
-        autoplay: true,
-        slidesToShow: 4,
-        slidesToScroll: 1,
-        centerMode: false,
-        adaptiveHeight: true,
-        responsive: [
-          {
-            breakpoint: 1200,
-            settings: {
-              slidesToShow: 4,
-              centerMode: false,
-              infinite: false,
-              
-            },
+      dots: false,
+      arrows:true,
+      infinite: true,
+      speed: 1400,
+      autoplaySpeed: 3000,
+      autoplay: false,
+      slidesToShow: 4,
+      slidesToScroll: 1,
+      centerMode: true,
+      adaptiveHeight: true,
+      responsive: [
+        {
+          breakpoint: 1200,
+          settings: {
+            slidesToShow: 4,
+            centerMode: false,
+            infinite: false,
+            
           },
-          {
-            breakpoint: 640,
-            settings: {
-              slidesToShow: 1,
-              centerMode: false,
-              infinite: false,
-              arrows:false,
-            },
+        },
+        {
+          breakpoint: 640,
+          settings: {
+            slidesToShow: 1,
+            centerMode: false,
+            infinite: false,
+            
           },
-        ],
-    };
+        },
+      ],
+  };
     return (
       <div className="fans-section stadiums">
         <div className="heading">
@@ -57,11 +57,12 @@ export default class stadiums extends Component {
                 height={452}
                 />
                 <div className="text">
-                  <h2>Al-Janoub Stadium</h2>
+                  <h2>Al-Janoub <br></br>Stadium</h2>
                   <p>Description</p>
                 </div>
              </div>
           </div>
+          
           <div>
              <div className="stadiums-box">
                 <Image
@@ -71,7 +72,7 @@ export default class stadiums extends Component {
                 height={452}
                 />
                 <div className="text">
-                  <h2>Educational City Stadium</h2>
+                  <h2>Educational<br></br> City Stadium</h2>
                   <p>Description</p>
                 </div>
              </div>
@@ -85,7 +86,7 @@ export default class stadiums extends Component {
                 height={452}
                 />
                 <div className="text">
-                  <h2>Ahmed Bin Ali Stadium</h2>
+                  <h2>Ahmed <br></br>Bin Ali Stadium</h2>
                   <p>Description</p>
                 </div>
              </div>
@@ -99,7 +100,7 @@ export default class stadiums extends Component {
                 height={452}
                 />
                 <div className="text">
-                  <h2>Al-Bait Stadium</h2>
+                  <h2>Al-Bait <br></br>Stadium</h2>
                   <p>Description</p>
                 </div>
              </div>
@@ -113,7 +114,7 @@ export default class stadiums extends Component {
                 height={452}
                 />
                 <div className="text">
-                  <h2>Al-Janoub Stadium</h2>
+                  <h2>Al-Janoub<br></br> Stadium</h2>
                   <p>Description</p>
                 </div>
              </div>

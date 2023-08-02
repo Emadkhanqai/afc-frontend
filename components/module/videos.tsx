@@ -1,6 +1,6 @@
 
 import Image from 'next/image'
-
+import { SRLWrapper } from "simple-react-lightbox";
 
 
 function videos(){
@@ -12,15 +12,17 @@ function videos(){
             <h1>Latest Videos</h1>
             <p>Our latest videos update</p>
           </div>
-
+          <SRLWrapper>
+      
           <div className='boxes-main'>
-            <div className='box'>
+            <div className='box' >
               <Image
                 src="/img/videos01.png"
                 alt="Picture of the author"
                 width={343}
                 height={210}
               />
+              
               <div className='text'>
                 <div className='date'>Fri, May 12, 2023</div>
                 <p>#AsianCup2023
@@ -57,6 +59,7 @@ function videos(){
               </div>
             </div>
           </div>
+          </SRLWrapper>
           <button>Learn More</button>
         </div>
     

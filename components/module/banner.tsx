@@ -23,7 +23,7 @@ export class banner extends Component {
               width={390}
               height={81}
               />
-              <div className='text-[16px] sm:text-[18px]'><Link className='underline' href="/">Apply to Hayya,</Link> and get access to</div>
+              <div className='text-[16px] sm:text-[18px] mt-4'><Link className='underline' href="/">Apply to Hayya,</Link> and get access to</div>
             </div>
 
       </div>
