@@ -15,10 +15,10 @@ export default class stadiums extends Component {
       infinite: true,
       speed: 1400,
       autoplaySpeed: 3000,
-      autoplay: false,
+      autoplay: true,
       slidesToShow: 4,
       slidesToScroll: 1,
-      centerMode: true,
+      centerMode: false,
       adaptiveHeight: true,
       responsive: [
         {
@@ -36,6 +36,7 @@ export default class stadiums extends Component {
             slidesToShow: 1,
             centerMode: false,
             infinite: false,
+            arrows:false,
             
           },
         },
